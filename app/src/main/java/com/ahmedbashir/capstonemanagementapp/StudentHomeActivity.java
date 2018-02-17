@@ -16,6 +16,7 @@ import android.text.Layout;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -94,21 +95,7 @@ public class StudentHomeActivity extends AppCompatActivity {
         adapter = new StudentAdapter(projectsList,this);
         studentRecyclerView.setAdapter(adapter);
 
-       /* //Drawer Items listener
-        navigationView = findViewById(R.id.navigation_view);
-        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                switch (item.getItemId()){
-                    case R.id.notification_item:
-                        Intent intent = new Intent(StudentHomeActivity.this,ProjectDetailsActivity.class);
-                        startActivity(intent);
 
-                }
-                return false;
-            }
-        });
-*/
 
 
     }

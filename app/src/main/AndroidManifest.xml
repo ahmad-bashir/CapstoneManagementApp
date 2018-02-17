@@ -31,14 +31,29 @@
             android:label="@string/user_registration_label" />
         <activity
             android:name=".StudentHomeActivity"
-            android:label="@string/student_home" android:launchMode="singleInstance"/>
+            android:label="@string/student_home"
+            android:launchMode="singleInstance" />
         <activity
             android:name=".ProjectDetailsActivity"
-            android:label="@string/project_show" android:launchMode="singleInstance"/>
-        <activity android:name=".CreateGroupActivity" android:label="Create Group" android:launchMode="singleInstance" />
-        <activity android:name=".ViewSupervisorActivity" android:label="Supervisors List" android:launchMode="singleInstance" />
-        <activity android:name=".NotificationsActivity" android:label="Notifications" android:launchMode="singleInstance" />
-        <activity android:name=".CreateProjectActivity" android:label="Create Project" android:launchMode="singleInstance"/>
+            android:label="@string/project_show"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".CreateGroupActivity"
+            android:label="Create Group"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".ViewSupervisorActivity"
+            android:label="Supervisors List"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".NotificationsActivity"
+            android:label="Notifications"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".CreateProjectActivity"
+            android:label="Create Project"
+            android:launchMode="singleInstance" />
+        <activity android:name=".FullNotificationActivity"></activity>
     </application>
 
 </manifest>

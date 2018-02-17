@@ -6,6 +6,8 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -21,7 +23,10 @@ public class NotificationsActivity extends AppCompatActivity {
     public static final String TAG = NotificationsActivity.class.getSimpleName();
     private FirebaseAuth.AuthStateListener mAuthListener;
 
+    @BindView(R.id.notifications_recycler_view)
+    RecyclerView notificationsRecyclerView;
 
+    private RecyclerView.Adapter adapter;
     //Navigation Drawer
     private ActionBarDrawerToggle drawerToggle;
     @BindView(R.id.notifications_activity_drawer_layout)
@@ -40,6 +45,14 @@ public class NotificationsActivity extends AppCompatActivity {
         drawerLayout.addDrawerListener(drawerToggle);
         drawerToggle.syncState();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        //Setting Recycler View
+        notificationsRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        String[] data = {"Dummy 1","Dummy 2","Dummy 3","Dummy 4","Dummy 5","Dummy 6"};
+        adapter = new NotificationsAdapter(data);
+        notificationsRecyclerView.setAdapter(adapter);
+
+
 
     }
 
