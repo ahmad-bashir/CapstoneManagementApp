@@ -53,7 +53,10 @@
             android:name=".CreateProjectActivity"
             android:label="Create Project"
             android:launchMode="singleInstance" />
-        <activity android:name=".FullNotificationActivity"></activity>
+        <activity android:name=".FullNotificationActivity"
+            android:label="Full Notification"
+            android:launchMode="singleInstance"
+            />
     </application>
 
 </manifest>
