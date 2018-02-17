@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Capstone Management App</string>
+    <string name="user_registration_label">User Registration</string>
+    <string name="app_logo">App Logo</string>
+    <string name="user_login">User Login</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="user_registration">User Registration</string>
+    <string name="not_a_user_register_your_self">Not a User? Register Your Self</string>
+    <string name="app_splash">App Splash</string>
+    <string name="password_mismatch_error_title">Oops! Sorry</string>
+    <string name="password_mismatch_error">Passwords do not match. Try Again.</string>
+    <string name="not_valid_domain">This domain does not belong to gift.edu.pk</string>
+    <string name="fill_all_fields">You must fill out all the fields</string>
+    <string name="login_fail_message">You didn\'t fill in all the fields.</string>
+    <string name="verficiation_email_success">Sent Verification Email</string>
+    <string name="verification_email_failure">Couldn\'t Send Verification Email</string>
+    <string name="student_home">Home</string>
+    <string name="notifications">Notifications</string>
+    <string name="submit_own_proposal">Submit Own Proposal</string>
+    <string name="create_group">Create Group</string>
+    <string name="project_detail_sample">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </string>
+    <string name="view_supervisors">View Supervisors</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="project_title">Project Title</string>
+    <string name="by_qsd">By : QSD</string>
+    <string name="show_project_details">Show Project Details</string>
+    <string name="project_show">Project Details</string>
+    <string name="send_proposal_request">Send Proposal Request</string>
+    <string name="sample_project">Sample Project</string>
+    <string name="project_title_ac">Project Title:</string>
+    <string name="chat">Chat</string>
+    <string-array name="roles">
+        <item>Select Role</item>
+        <item>Student</item>
+        <item>Faculty</item>
+    </string-array>
+</resources>

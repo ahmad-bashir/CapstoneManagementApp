@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_menu_id"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/notification_item"
+        android:icon="@mipmap/ic_notifications_black_24dp" android:title="@string/notifications" android:onClick="notificationsShow"/>
+    <item android:id="@+id/own_proposal_item" android:title="@string/submit_own_proposal"
+        android:icon="@mipmap/ic_work_black_24dp" android:onClick="submitOwnProposal"/>
+    <item android:id="@+id/create_group_item" android:icon="@mipmap/ic_group_work_black_24dp" android:title="@string/create_group"
+        android:onClick="createGroup"/>
+    <item android:id="@+id/view_supervisors_item" android:title="@string/view_supervisors" android:icon="@mipmap/ic_group_black_24dp"/>
+    <item android:id="@+id/chat_item" android:title="@string/chat" android:icon="@mipmap/ic_chat_black_24dp" android:onClick="openChat"/>
+
+</menu>
