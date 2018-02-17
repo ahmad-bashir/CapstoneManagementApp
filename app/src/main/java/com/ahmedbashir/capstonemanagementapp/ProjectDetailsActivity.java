@@ -174,7 +174,9 @@ public class ProjectDetailsActivity extends AppCompatActivity {
             Log.d(TAG, "checkAuthenticationState: user is authenticated.");
         }
     }
-
+    /*
+        Drawer items listeners
+     */
 
 
     public void notificationsShow(MenuItem item) {
